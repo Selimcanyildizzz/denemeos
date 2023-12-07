@@ -7,7 +7,7 @@ const { title, items } = trustedOne;
 
 const TrustedOne = () => {
   return (
-    <section className="trusted-one">
+    <section className="trusted-one d-none">
       <Container>
         <div className="trusted-one__inner">
           <div className="trusted-one__left">

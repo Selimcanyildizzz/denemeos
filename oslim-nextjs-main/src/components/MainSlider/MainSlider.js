@@ -50,12 +50,12 @@ const MainSlider = ({
         </div>
         <div className="swiper-pagination" id="main-slider-pagination"></div>
         <div className={navClassName}>
-          <div
+          {/* <div
             className="swiper-button-prev"
             id="main-slider__swiper-button-prev"
           >
             <i className="icon-right-arrow icon-left-arrow"></i>
-          </div>
+          </div> */}
           <div
             className="swiper-button-next"
             id="main-slider__swiper-button-next"

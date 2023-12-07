@@ -8,7 +8,7 @@ const CasesPage = () => {
     <div className="cases-page">
       <Container>
         <Row>
-          {cases.slice(0, 6).map((singleCase) => (
+          {cases.map((singleCase) => (
             <Col
               key={singleCase.id}
               xl={4}

@@ -28,8 +28,8 @@ export const inputs = [
 ];
 
 const common = {
-  phone: "+1- ( 246 ) 333 - 0079",
-  phoneHref: "12463330079",
+  phone: "+90 (216) 700 1833",
+  phoneHref: "+902167001833",
   email: "needhelp@company.com",
 };
 

@@ -12,7 +12,7 @@ const { bg, title } = ourMission;
 
 const OurMission = () => {
   return (
-    <section className="our-mission">
+    <section className="our-mission d-none">
       <div className="our-mission-bg-box">
         <Jarallax className="our-mission-bg" speed={0.2} imgPosition="50% 0%">
           <JarallaxImage src={bg.src} />

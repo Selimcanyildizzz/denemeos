@@ -20,7 +20,7 @@ const WorkTogether = ({ id = "" }) => {
   const ref = useActive(id);
 
   return (
-    <section ref={ref} className="work-together" id={id}>
+    <section ref={ref} className="work-together d-none" id={id}>
       <Container>
         <Row>
           <Col xl={6}>

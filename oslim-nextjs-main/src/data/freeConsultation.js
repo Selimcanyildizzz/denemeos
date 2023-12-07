@@ -1,7 +1,7 @@
 export const freeConsultation = {
-  title: "Get your FREE \n business consultation",
+  title: "Daha Detaylı Bilgi Almak İçin",
   titleHighlight: "FREE",
-  phone: "+1- ( 246 ) 333 - 0079",
-  phoneHref: "12463330079",
-  email: "needhelp@company.com",
+  phone: "+90 (216) 700 1833",
+  phoneHref: "+902167001833",
+  email: "buro@koksalpartners.com",
 };

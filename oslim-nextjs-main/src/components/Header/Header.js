@@ -5,6 +5,7 @@ import React from "react";
 import { Image } from "react-bootstrap";
 import Link from "../Reuseable/Link";
 import MenuList from "./MenuList";
+import ImageBackground from "../../assets/images/backgrounds/Koksal Partners bina.jpg"
 
 const { logo, navItems: items, callText, phone, phoneHref } = headerData;
 
@@ -51,17 +52,6 @@ const Header = ({ mainMenuClass = "", navItems = items, onePage = false }) => {
             </div>
           </div>
           <div className="main-menu-wrapper__right">
-            <div className="main-menu-wrapper__call">
-              <div className="main-menu-wrapper__call-icon">
-                <span className="icon-phone-call"></span>
-              </div>
-              <div className="main-menu-wrapper__call-number">
-                <p>{callText}</p>
-                <h5>
-                  <a href={`tel:${phoneHref}`}>{phone}</a>
-                </h5>
-              </div>
-            </div>
             <div className="main-menu-wrapper__search-cat">
               <a
                 onClick={handleToggleSearch}
