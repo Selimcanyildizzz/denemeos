@@ -11,8 +11,8 @@ const TeamOne = ({ id = "" }) => {
   const ref = useActive(id);
 
   return (
-    <section ref={ref} className="team-one" id={id}>
-      <div className="team-one__container">
+    <section ref={ref} className="d-none" id={id}>
+      <div className="__container">
         <Title title={title} tagline={tagline} className="text-center" />
         <Row>
           {teams.map((team) => (

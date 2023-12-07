@@ -18,7 +18,7 @@ const WelcomeOne = ({ id = "" }) => {
 
   return (
     <>
-      <section ref={ref} className="welcome-one" id={id}>
+      <section ref={ref} className="welcome-one d-none" id={id}>
         <div
           className="welcome-one-shape"
           style={{ backgroundImage: `url(${bg.src})` }}

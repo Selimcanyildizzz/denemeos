@@ -7,7 +7,7 @@ const { title, titleHighlight, phone, phoneHref, email } = freeConsultation;
 
 const FreeConsultation = () => {
   return (
-    <section className="free-consultation">
+    <section className="free-consultation d-none">
       <Container>
         <div className="free-consultation__inner animated fadeInUp">
           <div className="free-consultation__left">

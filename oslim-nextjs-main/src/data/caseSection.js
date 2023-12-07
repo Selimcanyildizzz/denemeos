@@ -3,66 +3,82 @@ import image from "@/images/case/case-details-img-1.jpg";
 export const cases = [
   {
     id: 1,
-    image: "case-1-1.jpg",
-    image2: "case-3-1.jpg",
-    tagline: "leadership",
-    title: "Businesses \n Growth",
+    image: "Bilişim ve Yapay Zeka Hukuku.png",
+    /*image2: "case-3-1.jpg",*/
+    title: "Bilişim ve Yapay Zeka \nHukuku",
   },
   {
     id: 2,
-    image: "case-1-2.jpg",
-    image2: "case-3-2.jpg",
-    tagline: "Management",
-    title: "Marketing \n Advice",
+    image: "Gayrimenkul ve İnşaat Hukuku.png",
+    /*image2: "case-3-2.jpg",*/
+    title: "Gayrimenkul ve İnşaat \nHukuku",
   },
   {
     id: 3,
-    image: "case-1-3.jpg",
-    image2: "case-3-3.jpg",
-    tagline: "strategy",
-    title: "Finance \n Consulting",
+    image: "iş ve sosyal güvenlik hukuku.png",
+    /*image2: "case-3-3.jpg",*/
+    title: "İş ve Sosyal Güvenlik \nHukuku",
   },
   {
     id: 4,
-    image: "case-1-4.jpg",
-    tagline: "growth",
-    title: "Digital \n Campaigns",
+    image: "Kişisel Verilerin Korunması Hukuku.png",
+    title: "Kişisel Verilerin Korunması \nHukuku",
   },
   {
     id: 5,
-    image: "case-1-5.jpg",
-    tagline: "marketing",
-    title: "Substantial \n Business",
+    image: "Telekomünikasyon, Medya ve Eğlence Hukuku.png",
+    title: "Medya ve Eğlence \nHukuku",
   },
   {
     id: 6,
-    image: "case-1-6.jpg",
-    tagline: "briliant",
-    title: "Top-Notch \n Consulting",
+    image: "Sağlık Hukuku.png",
+    title: "Sağlık \nHukuku",
   },
   {
     id: 7,
-    image: "case-1-2.jpg",
-    tagline: "Management",
-    title: "Marketing \n Advice",
+    image: "Şirket ve Sözleşmeler Hukuku.png",
+    title: "Şirket ve Sözleşmeler \nHukuku",
   },
   {
     id: 8,
-    image: "case-1-3.jpg",
-    tagline: "strategy",
-    title: "Finance \n Consulting",
+    image: "Telekomünikasyon, Medya ve Eğlence Hukuku.png",
+    title: "Telekomünikasyon \nHukuku",
   },
   {
     id: 9,
-    image: "case-1-4.jpg",
-    tagline: "growth",
-    title: "Digital \n Campaigns",
+    image: "Girişimcilik ve Start-up Hukuku.png",
+    title: "Girişimcilik ve Start-up \nHukuku",
+  },
+  {
+    id: 10,
+    image: "İcra ve İflas Hukuku.png",
+    title: "İcra ve İflas \nHukuku",
+  },
+  {
+    id: 11,
+    image: "E-Ticaret, Fintek ve Ödeme Hizmetler.png",
+    title: "E-Ticaret, Fintek ve Ödeme \nHizmetleri",
+  },
+  {
+    id: 12,
+    image: "Blockchain ve Kripto Para.png",
+    title: "Blockchain ve Kripto Para",
+  },
+  {
+    id: 13,
+    image: "Yabancılar ve Vatandaşlık Hukuku.png",
+    title: "Yabancılar ve Vatandaşlık \nHukuku",
+  },
+  {
+    id: 14,
+    image: "Reklam Hukuku.png",
+    title: "Reklam \nHukuku",
   },
 ];
 
 export const caseOne = {
-  tagline: "Our recent work",
-  title: "New Case Studies",
+  tagline: "Çalışma Alanlarımız",
+  title: "Çalışma Alanlarımız",
   cases,
 };
 
@@ -79,13 +95,9 @@ export const caseDetailsPage = {
   date: "20 October, 2022",
   title: "Marketing Advice",
   text1:
-    "Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "Gelişen bilişim teknolojisi ile birlikte yapay zekanın oluşumu, faaliyet alanının genişlemesi akabinde gündeme tartışılması gereken yeni hukuki meseleler de gelmiştir.",
   text2:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Ut enim ad minim veniam.",
-  text3:
-    "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. There are many variations of passages.",
-  text4:
-    "When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.",
+    "Köksal & Partners olarak bu dinamik alana hızla uyum sağlıyor ve müvekkillerimize en etkin şekilde hukuki desteği sağlıyoruz.",  
   points: [
     "Is your van a little old and tired.",
     "Lorem Ipsum is simply dummy text.",

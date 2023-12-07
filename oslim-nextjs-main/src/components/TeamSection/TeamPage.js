@@ -4,11 +4,11 @@ import { Col, Container, Row } from "react-bootstrap";
 import SingleTeamOne from "./SingleTeamOne";
 
 const TeamPage = () => {
-  return (
+    return (
     <section className="team-page">
       <Container>
         <Row>
-          {teamPage.slice(0, 6).map((team) => (
+          {teamPage.map((team) => (
             <Col
               xl={4}
               lg={6}
@@ -16,8 +16,8 @@ const TeamPage = () => {
               key={team.id}
               className="animated fadeInUp"
             >
-              <SingleTeamOne team={team} />
-            </Col>
+                <SingleTeamOne team={team} />
+                          </Col>
           ))}
         </Row>
       </Container>

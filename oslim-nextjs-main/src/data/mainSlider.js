@@ -4,19 +4,7 @@ export const mainSlider = [
   {
     id: 1,
     bg: "main-slider-1-1.jpg",
-    title: "Award \n winning \n consulting",
-    href: "/about",
-  },
-  {
-    id: 2,
-    bg: "main-slider-1-2.jpg",
-    title: "Award \n winning \n consulting",
-    href: "/about",
-  },
-  {
-    id: 3,
-    bg: "main-slider-1-3.jpg",
-    title: "Award \n winning \n consulting",
+    title: "Hukukun karmaşık dünyasında doğru adımları atmak, güvenilir bir rehberlikle mümkündür. Köksal & Partners olarak, yılların birikimiyle edindiğimiz deneyim ve uzmanlıkla sizlere destek olmaktan onur duyuyoruz.",
     href: "/about",
   },
 ];

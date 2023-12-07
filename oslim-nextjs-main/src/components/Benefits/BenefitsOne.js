@@ -11,7 +11,7 @@ const BenefitsOne = () => {
   const [faqActive, setFaqsActive] = useState(1);
 
   return (
-    <section className="benefits-one">
+    <section className="benefits-one d-none">
       <Container>
         <Row>
           <Col xl={6} lg={6}>

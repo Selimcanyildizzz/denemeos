@@ -42,9 +42,9 @@ const SingleSlideThree = ({ slider = {} }) => {
         <Row>
           <Col xl={8}>
             <div className="main-slider__content">
-              <h2>
+              <p>
                 <TextSplit text={title} highlight="&" />
-              </h2>
+              </p>
               <Link href="/about" className="thm-btn">
                 Discover More
               </Link>

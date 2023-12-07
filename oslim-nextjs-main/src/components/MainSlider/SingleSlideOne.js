@@ -2,6 +2,9 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Link from "../Reuseable/Link";
 import TextSplit from "../Reuseable/TextSplit";
+import Image from "next/image";
+import ImageBackground from "../../assets/images/backgrounds/Koksal Partners bina.jpg"
+
 
 const SingleSlideOne = ({ slider = {}, showShape = false }) => {
   const { bg, title, href } = slider;
@@ -9,13 +12,15 @@ const SingleSlideOne = ({ slider = {}, showShape = false }) => {
   return (
     <>
       <div
-        className="image-layer"
-        style={{
-          backgroundImage: `url(${
-            require(`@/images/backgrounds/${bg}`).default.src
-          })`,
-        }}
-      ></div>
+        className="image-layer">
+          <Image
+          src={ImageBackground}
+          alt="Koksal Partners Bina"
+          layout="fill"
+          objectFit="cover"
+        />
+
+      </div>
 
       {showShape && (
         <>
@@ -29,9 +34,9 @@ const SingleSlideOne = ({ slider = {}, showShape = false }) => {
         <Row>
           <Col xl={showShape ? 7 : 12}>
             <div className="main-slider__content">
-              <h2>
+              <p>
                 <TextSplit text={title} />
-              </h2>
+              </p>
               <Link href={href} className="thm-btn">
                 Discover More
               </Link>

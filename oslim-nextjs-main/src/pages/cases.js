@@ -8,7 +8,7 @@ const Cases = () => {
   return (
     <Layout pageTitle="Cases" footerClassName="site-footer-three">
       <Header />
-      <PageHeader page="Cases" title="Our Cases" />
+      <PageHeader page="Cases" title="Çalışma Alanlarımız" />
       <CasesPage />
     </Layout>
   );

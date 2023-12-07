@@ -1,8 +1,8 @@
-import logo from "@/images/resources/logo-1.png";
+import logo from "@/images/resources/Köksal Partners Mavi Siyah Logo.png";
 
 const home = {
   id: 1,
-  name: "Home",
+  name: "Anasayfa",
   href: "/",
   subNavItems: [
     {
@@ -155,13 +155,13 @@ export const navItems = [
   home,
   {
     id: 2,
-    name: "Services",
+    name: "Yayınlarımız",
     href: "/services",
     subNavItems: servicesSubNavItems,
   },
   {
     id: 3,
-    name: "Pages",
+    name: "Hakkımızda",
     href: "",
     subNavItems: [
       { id: 1, name: "About", href: "/about" },
@@ -174,7 +174,7 @@ export const navItems = [
   },
   {
     id: 4,
-    name: "Cases",
+    name: "Çalışma Alanlarımız",
     href: "/cases",
     subNavItems: [
       { id: 1, name: "Cases", href: "/cases" },
@@ -182,28 +182,10 @@ export const navItems = [
       { id: 3, name: "Case Details", href: "/case-details" },
     ],
   },
+
   {
     id: 5,
-    name: "Blog",
-    href: "/blog",
-    subNavItems: [
-      { id: 1, name: "Blog Posts", href: "/blog" },
-      { id: 2, name: "Blog Two", href: "/blog-2" },
-      {
-        id: 3,
-        name: "Blog Sidebar",
-        href: "/blog-sidebar",
-        subItems: [
-          { id: 1, name: "Blog Right Sidebar", href: "/blog-sidebar" },
-          { id: 2, name: "Blog Left Sidebar", href: "/blog-sidebar-right" },
-        ],
-      },
-      { id: 4, name: "Blog Details", href: "/blog-details" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Contact",
+    name: "Kariyer",
     href: "/contact",
   },
 ];
@@ -211,7 +193,7 @@ export const navItems = [
 const socials = [
   {
     id: 1,
-    icon: "fab fa-twitter",
+    icon: "fab fa-square-x-twitter",
     href: "#",
   },
   {
@@ -221,11 +203,6 @@ const socials = [
   },
   {
     id: 3,
-    icon: "fab fa-pinterest-p",
-    href: "#",
-  },
-  {
-    id: 4,
     icon: "fab fa-instagram",
     href: "#",
   },
@@ -235,8 +212,8 @@ const headerData = {
   logo,
   navItems,
   callText: "Need help? Talk to an expert",
-  phone: "+1- ( 246 ) 333 - 0079",
-  phoneHref: "12463330079",
+  phone: "+90 (216) 700 1833",
+  phoneHref: "+902167001833",
   email: "needhelp@oslim.com",
   socials,
 };

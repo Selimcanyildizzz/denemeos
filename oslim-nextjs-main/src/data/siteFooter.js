@@ -1,30 +1,28 @@
-import logo from "@/images/resources/logo-1.png";
+import logo from "@/images/resources/Köksal Partners Mavi Siyah Logo.png";
 import bg from "@/images/shapes/site-footer-shape-1.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+
 
 const footerData = {
   bg,
   logo,
-  aboutText: "Great Experience for Building Customers & Businesses",
+  aboutText: "Better Call Köksal",
   socials: [
     {
       id: 1,
-      icon: "fab fa-twitter",
-      href: "#",
+      icon: "fa-brands fa-x-twitter", 
+      href: "https://twitter.com/i/flow/login?redirect_after_login=%2FKoksalPartners",
     },
     {
       id: 2,
-      icon: "fab fa-facebook",
-      href: "#",
+      icon: "fab fa-linkedin",
+      href: "https://www.linkedin.com/company/koksalpartners/",
     },
     {
       id: 3,
-      icon: "fab fa-pinterest-p",
-      href: "#",
-    },
-    {
-      id: 4,
       icon: "fab fa-instagram",
-      href: "#",
+      href: "https://www.instagram.com/koksalpartners/",
     },
   ],
   links: [
@@ -75,10 +73,11 @@ const footerData = {
     },
   ],
   newsletterText: "Subsrcibe for our upcoming latest articles and resources",
-  address: "60 road, broklyn golden street new york. USA",
-  phone: "+1- ( 246 ) 333 - 0079",
-  phoneHref: "12463330079",
-  email: "needhelp@company.com",
+  address: "Burhaniye Mahallesi, Burhaniye Abdullahağa Caddesi, Merdivençıkmazı Sokak, No:2, Üsküdar, İstanbul",
+  mapLink: "https://www.google.com/maps/place/Burhaniye+Mahallesi,+Burhaniye+Abdullahağa+Caddesi,+Merdivençıkmazı+Sokak,+No:2,+Üsküdar,+İstanbul",
+  phone: "+90 (216) 700 1833",
+  phoneHref: "+902167001833",
+  email: "buro@koksalpartners.com",
   author: "Oslim",
   year: new Date().getFullYear(),
 };
